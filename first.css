@@ -1,0 +1,43 @@
+body{
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.nav .name img{
+
+width: 100%;
+}
+
+.nav .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top: 20px;
+    justify-content: center;
+    border:1px solid black;
+    
+}
+ .container .oil-p{  
+    border: 3px solid red;
+    height:200px;
+    width:200px;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.container .oil-p:hover{
+    box-shadow:0px 20px 20px 0px rgba(0,0,0,0.5);
+   
+}
+
+#drop-img,#fire-img{
+    font-size: 100px;
+    
+}
+
+#drop-img{
+    color:goldenrod;
+}
+#fire-img{
+    color:rgba(255, 68, 0, 0.868);
+}
